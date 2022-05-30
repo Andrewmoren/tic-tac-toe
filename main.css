@@ -1,4 +1,4 @@
-.area-wraper{
+.area-wraper {
     width: 100%;
     height: 100%;
     display: flex;
@@ -20,7 +20,7 @@
     border: 1px solid black;
     box-sizing: border-box;
     font-size: 34px;
-    color: blue;
+    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,29 +40,29 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #modal-window {
-width: 150px;
-height: 150px;
-border: solid black;
-background-color: white;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(- 50%, -50%);
-display: flex;
-flex-flow: column;
-justify-content: space-between;
-align-items: center;
+    width: 150px;
+    height: 150px;
+    border: solid black;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(- 50%, -50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #btn-close {
     width: 150px;
     height: 20px;
-    background-color:  tomato;
+    background-color: tomato;
     color: aquamarine;
-    text-align:center;
+    text-align: center;
     cursor: pointer;
 }
